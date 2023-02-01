@@ -1,0 +1,16 @@
+/* Для заголовков */
+@font-face {
+    font-family: 'BerlinTypeBold';
+    src: url('../fonts/BerlinType/BerlinType-Bold.otf');
+}
+
+/* Основной текст */
+@font-face {
+    font-family: 'BerlinType';
+    src: url('../fonts/BerlinType/BerlinType-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Concrete';
+    src: url('../fonts/Concrete/Concrete-Regular.otf');
+}
