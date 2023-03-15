@@ -14,3 +14,9 @@
     font-family: 'Concrete';
     src: url('../fonts/Concrete/Concrete-Regular.otf');
 }
+
+/*  */
+@font-face{
+    font-family: 'fram';
+    src: url("../fonts/framd/framd.otf");
+}
