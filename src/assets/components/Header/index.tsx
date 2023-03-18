@@ -1,6 +1,6 @@
 import React from "react";
-import '../css/Header.css';
-import { HeaderInformation } from "./HeaderInformation";
+import './css/style.css';
+import { HeaderInformation } from "../HeaderInformation";
 
 export function Header(){
 

@@ -1,10 +1,15 @@
 import React from 'react';
-import { Header } from './Header';
-import { Footer } from './Footer';
-import logo from '../images/logo.svg';
-import '../css/App.css';
+import { Header } from '../Header';
+import { Footer } from '../Footer';
+import logo from '../../images/logo.svg';
+import './css/style.css';
+import { useExempleState } from '../../hook/useStateExemple';
 
 function App() {
+  const { exemple } = useExempleState();
+
+  console.log(exemple);
+
   return (
     <>
       <Header />

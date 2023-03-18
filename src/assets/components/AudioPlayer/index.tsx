@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
-import '../AudioPlayer/css/Player.css'
+import '../AudioPlayer/css/style.css'
 import { BsFillPlayCircleFill, BsFillPauseCircleFill, BsFillSkipStartCircleFill, BsFillSkipEndCircleFill } from 'react-icons/bs';
-import { songsData } from './data/audios';
+import { songsData } from './data/arrayAudio';
 
 //Музыкальный плеер
 const Player = () => {
