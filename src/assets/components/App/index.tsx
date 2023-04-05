@@ -1,20 +1,22 @@
 import React from 'react';
 import { Header } from '../Header';
 import { Footer } from '../Footer';
-import logo from '../../images/logo.svg';
+// import logo from '../../images/logo.svg';
 import './css/style.css';
 import { useExempleState } from '../../hook/useStateExemple';
+import { Slider } from '../Slider';
 
 function App() {
   const { exemple } = useExempleState();
 
-  console.log(exemple);
+  console.log(exemple + "  nothing");
 
   return (
     <>
       <Header />
       <div className="App">
-        <header className="App-header">
+        <Slider/>
+        {/* <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.tsx</code> and save to reload.
@@ -27,7 +29,7 @@ function App() {
           >
             Learn React
           </a>
-        </header>
+        </header> */}
       </div>
       <Footer />
     </>
