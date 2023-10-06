@@ -2,7 +2,10 @@ import React from 'react';
 import "./css/style.css";
 import { Link } from 'react-router-dom';
 
-// Меню
+/**
+ * Меню
+ * @returns компонент "Меню"
+ */
 export function Menu() {
 
     return (

@@ -4,11 +4,15 @@ import { useActiveIndexState } from "./hook/useActiveIndexState";
 import { items } from "./data/arrayItems";
 import { CarouselItem as SliderlItem } from "./SliderlItem";
 
+/**
+ * Слайдер
+ * @returns компонент "Слайдер"
+ */
 export const Slider = () => {
   const { activeIndex, setActiveIndex } = useActiveIndexState();
 
   // Обновить индекс
-  const updateIndex = (newIndex: React.SetStateAction<number>) => {
+  const updateIndex = (newIndex: number) => {
     if (newIndex < 0) {
       newIndex = 0;
     } else if (newIndex >= items.length) {

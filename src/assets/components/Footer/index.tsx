@@ -2,6 +2,10 @@ import React from "react";
 import logo from '../../images/logo.svg';
 import "./css/style.css";
 
+/**
+ * Подвал
+ * @returns компонент "Подвал"
+ */
 export function Footer() {
 
     return (

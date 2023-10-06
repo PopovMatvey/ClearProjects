@@ -3,7 +3,10 @@ import '../AudioPlayer/css/style.css'
 import { BsFillPlayCircleFill, BsFillPauseCircleFill, BsFillSkipStartCircleFill, BsFillSkipEndCircleFill } from 'react-icons/bs';
 import { songsData } from './data/arrayAudio';
 
-//Музыкальный плеер
+/**
+ * Музыкальный плеер
+ * @returns компонент "Музыкальный плеер" 
+ */
 const Player = () => {
   const clickRef = useRef(document.createElement("div"));
   const [songs] = useState(songsData);
