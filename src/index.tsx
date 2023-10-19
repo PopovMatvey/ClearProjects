@@ -5,13 +5,16 @@ import reportWebVitals from './reportWebVitals';
 import '../src/assets/css/reset.css'
 import '../src/assets/css/index.css';
 import '../src/assets/css/IncludeFonts.css'
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
 

@@ -12,7 +12,8 @@ export function Menu() {
         <>
             <div className="menu-container">
                 <Link to={'/'}>Слайдер</Link>
-                <Link to={'/audio'}>Аудио плеер</Link>
+                <Link to={'/player'}>Аудио плеер</Link>
+                <Link to={'/scanner'}>Сканер</Link>
             </div>
         </>
     )

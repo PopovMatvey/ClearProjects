@@ -2,8 +2,7 @@ import React from 'react';
 import { Header } from '../Header';
 import { Footer } from '../Footer';
 import './css/style.css';
-import { useExempleState } from '../../hook/useStateExemple';
-import { Slider } from '../Slider';
+import { MainContent } from '../MainContent';
 
 /**
  * Приложениеы
@@ -11,12 +10,13 @@ import { Slider } from '../Slider';
  */
 function App() {
 
+
   return (
     <>
       <Header />
       <div className="App">
-        <Slider/>
-      </div>
+        <MainContent />
+      </div >
       <Footer />
     </>
   );

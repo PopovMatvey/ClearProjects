@@ -7,11 +7,12 @@ import { Menu } from "../Menu";
  * Шапка
  * @returns компонент "Шапка"
  */
-export function Header(){
+export function Header() {
 
-    return(
+    return (
         <header>
-            <HeaderInformation/>
+            <HeaderInformation />
+            <Menu />
         </header>
     );
 }
