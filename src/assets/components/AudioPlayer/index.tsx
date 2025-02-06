@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import '../AudioPlayer/css/style.css'
+import './css/style.css'
 import { BsFillPlayCircleFill, BsFillPauseCircleFill, BsFillSkipStartCircleFill, BsFillSkipEndCircleFill } from 'react-icons/bs';
 import { songsData } from './data/arrayAudio';
 

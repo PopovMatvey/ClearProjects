@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './assets/components/App';
 import reportWebVitals from './reportWebVitals';
-import '../src/assets/css/reset.css'
-import '../src/assets/css/index.css';
-import '../src/assets/css/IncludeFonts.css'
+import './assets/css/reset.css'
+import './assets/css/index.css';
+import './assets/css/IncludeFonts.css'
 import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(
